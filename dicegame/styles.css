@@ -1,0 +1,89 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+
+  .gradient-background {
+     background: linear-gradient(120deg, red,  black);
+     background-size: 100% 120%;
+     animation: gradient-animation 3s ease infinite;
+     background-image: url(../images/mui.gif);
+     
+   }
+
+   @keyframes gradient-animation {
+   0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+   }
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #4ECCA3;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 80%;
+  border: solid black;
+  border-radius: 25%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
+}
+
+.clickMe {
+  border-radius: 15%;
+  margin: 0px;
+  border: 0px;
+  font-family: 'Lobster', cursive;
+  font-size: 15px;
+  background-color:#4ECCA3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight:lighter;
+  margin: auto;
+  margin-top: 100px;
+}
+.netdice {
+    font-family: "Bebas Neue", sans-serif;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    color: red;
+    border: 0px;
+    font-size: 50px;
+    background-color: black;
+    margin-left: 10px;
+    border: solid black;
+    border-width: 0px 10px 0px 10px;
+}
